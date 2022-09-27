@@ -3,7 +3,10 @@
 
 name: Jira automation
 
-on: push
+on:
+  repository_dispatch:
+     type: ["event-triggered-by-jira"]
+
 
 jobs:
   build:
