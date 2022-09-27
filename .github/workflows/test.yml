@@ -17,7 +17,7 @@ jobs:
     - uses: actions/checkout@v3
     
     - name: running command to cat team1.tf file
-      run: cat ./dir1/dir2/team1.tf
+      run: ls -lrt
     
     - name: running command to add module team1.tf file
       run: ./script.sh team1 new_one
