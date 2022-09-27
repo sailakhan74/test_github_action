@@ -5,7 +5,7 @@ name: Jira automation
 
 on:
   repository_dispatch:
-     type: ["issue_generic"]
+     type: ["event-triggered-by-jira"]
 
 
 jobs:
