@@ -3,9 +3,7 @@
 
 name: Jira automation
 
-on:
-  repository_dispatch:
-     type: [github_actions]
+on: push
 
 jobs:
   build:
