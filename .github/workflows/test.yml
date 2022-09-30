@@ -23,13 +23,13 @@ jobs:
       run: ./script.sh team1 new_one
 
     - name: running command to cat team1.tf file
-      run: cat dir1/dir2/team1.tf
+      run: cat team1.tf
 
     - name: Now team2
       run: echo "Now Team-2"
 
     - name: running command to cat team2.tf file
-      run: cat dir1/dir2/team2.tf
+      run: cat team2.tf
     
     - name: running command to add module team2.tf file
       run: ./script.sh team2 new_one
