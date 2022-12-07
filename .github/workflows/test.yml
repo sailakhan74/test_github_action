@@ -1,8 +1,7 @@
 name: Adding New ECR
 
 on:
-  repository_dispatch:
-     type: [event-triggered-by-jira]
+  push
 
 jobs:
   build:
